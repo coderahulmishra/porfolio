@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Protfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <section class="homeSection">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#workSectionContainer">Work</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contect</a></li>
+                </ul>
+            </nav>
+            <section class="heroSection">
+                <div class="heroContent">
+                    <button id="helloBtn">👋 Hello All</button>
+                    <h1>I'm Rahul Mishra.</h1>
+                    <p><span>A Web Developer & Passionate Self-Learner.</span><br>
+                        <span>I build modern, user-friendly web experiences.</span></p>
+                    <div class="heroContentBtn">
+                        <a href="#workSectionContainer" id="viewMyWorkBtn">View My Work <i class="fa-solid fa-play"></i></a><a href="#" id="contectMeBtn">Contect Me</a>
+                    </div>
+                </div>
+                <div class="heroImg"></div>
+            </section>
+        </section>
+        <section class="workSection" id="workSectionContainer">
+            <div class="container">
+                <h1>My Recent Work</h1>
+                <div class="projects">
+                    <div class="projectsCard">
+                        <div class="projectCardContent">
+                            <p id="projectName">Project Name</p>
+                            <p id="projectDiscription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam sapiente explicabo fuga natus repellendus nostrum ipsum, corrupti molestiae consectetur nesciunt </p>
+                            <a href="#" id="projectBtn">View My Work</a>
+                        </div>
+                        <div class="projectCardImg">
+                            <img src="./images/1.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="projectsCard">
+                        <div class="projectCardContent">
+                            <p id="projectName">Project Name</p>
+                            <p id="projectDiscription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam sapiente explicabo fuga natus repellendus nostrum ipsum, corrupti molestiae consectetur nesciunt </p>
+                            <a href="#" id="projectBtn">View My Work</a>
+                        </div>
+                        <div class="projectCardImg">
+                            <img src="./images/2.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="projectsCard">
+                        <div class="projectCardContent">
+                            <p id="projectName">Project Name</p>
+                            <p id="projectDiscription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam sapiente explicabo fuga natus repellendus nostrum ipsum, corrupti molestiae consectetur nesciunt </p>
+                            <a href="#" id="projectBtn">View My Work</a>
+                        </div>
+                        <div class="projectCardImg">
+                            <img src="./images/3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
