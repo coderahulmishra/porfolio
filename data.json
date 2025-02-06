@@ -1,0 +1,8 @@
+[
+    {
+        "name":"Rest Countries",
+        "discription":"Rest Countries is a web application that fetches country data from the REST Countries API. Users can search for countries by name, filter them by region (Asia, Africa, etc.), and view detailed information about a selected country on a separate page. The project provides an intuitive and responsive UI for exploring global data efficiently.",
+        "url":"https://countryofworld.netlify.app/",
+        "image":"./images/Rest Countries.jpg"
+    }
+]
